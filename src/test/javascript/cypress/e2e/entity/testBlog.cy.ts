@@ -1,6 +1,6 @@
 describe('Crear blog', () => {
   it('Test que verifica si funciona el blog', () => {
-    cy.visit('http://localhost:8080/');
+    cy.visit('http://localhost:8081/');
     cy.get('#account-menu > span > span').click();
     cy.get('[data-cy=login]').click();
     cy.get('[data-cy=username]').type('admin');
@@ -16,5 +16,6 @@ describe('Crear blog', () => {
     cy.get('[data-cy=handle]').click();
     cy.get('[data-cy=handle]').type('mili');
     cy.get('[data-cy=entityCreateSaveButton]').click();
+    cy.visit('http://localhost:8081/blog');
   });
 });

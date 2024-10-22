@@ -1,6 +1,6 @@
 describe('Crear tag', () => {
   it('Verifico que se pueda crear un tag', () => {
-    cy.visit('http://localhost:8080/');
+    cy.visit('http://localhost:8081/');
     cy.get('#account-menu > span > span').click();
     cy.get('[data-cy=login]').click();
     cy.get('[data-cy=username]').type('admin');
