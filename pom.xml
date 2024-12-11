@@ -591,8 +591,9 @@
                                 </platform>
                             </platforms>
                         </from>
+
                         <to>
-                            <image>milagrostomba/isa2024:latest</image>
+                            <image>${DOCKER_REGISTRY_USER}/isa2024:latest</image>
                             <tags>
                                 <tag>${project.version}</tag>
                                 <tag>latest</tag>
