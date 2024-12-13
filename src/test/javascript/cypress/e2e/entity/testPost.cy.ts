@@ -1,5 +1,5 @@
 describe('Login admin', () => {
-  it('Test para ver si funciona el login con usuario admin', () => {
+  it('Test para ver si funciona el post', () => {
     cy.visit('http://localhost:8081/');
     cy.get('#account-menu > span > span').click();
     cy.get('#login > span').click();
